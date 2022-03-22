@@ -1,0 +1,97 @@
+
+*{
+margin: 0;
+padding: 0;
+box-sizing:border-box;
+}
+.wrapper{
+width: 100vw;
+height: 100vh;
+}
+.wrapper .item{
+display: flex;
+justify-content:space-around;
+align-items:stretch;
+height: 200px;
+margin: 0 12%;
+padding: 0;
+}
+.wrapper .item .numbers{
+font-size: 7rem;
+color: rgb(187, 151, 59);
+}
+.wrapper .item .text{
+text-align:center;
+font-size: 13px;
+width:150px;
+margin: 0 50px;
+word-break:break-all;
+}
+.wrapper .list{
+position: absolute;
+top: 0;
+left:1200px;
+border-left: 1px solid black;
+height: fit-content;
+width: min-content;
+padding-left: 10px;
+}
+.wrapper ul{
+list-style-type: none;
+}
+ul li{
+border: 1px solid black;
+text-align: center;
+border-radius: 50%;
+margin: 5px;
+width: 20px;
+}
+
+.wrapper .mid{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column; 
+width: 400px;
+margin: 0 500px;
+}
+.mid p.text2{
+width: 140px;
+text-align:center;
+font-size: 13px;
+word-break:break-all;
+}
+.wrapper .last{
+display: flex;
+justify-content:space-between ;
+height: 500px;
+}
+.last section{
+width: 500px;
+text-align: start;
+margin-top: 12px;
+}
+.last section .lg{
+font-size: 20px;
+margin-top: 24px;
+line-height: 2rem;
+}
+.last section h2{
+font-size: 30px;
+margin-top: 20px;
+}
+
+.last .end
+{
+display: flex;
+flex-direction: column;
+flex-grow: 1;
+justify-content: center;
+align-items: center;
+}
+
+.last .end .text{
+width: 250px;
+font-size: 12px;
+margin-bottom: 30px;
+}
